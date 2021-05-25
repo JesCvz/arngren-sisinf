@@ -1,4 +1,4 @@
-# arngren-sisinf
+# yummy
 
 ## Project setup
 ```
