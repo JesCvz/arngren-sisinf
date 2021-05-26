@@ -1,4 +1,4 @@
-# yummy
+# arngren
 
 ## Project setup
 ```
