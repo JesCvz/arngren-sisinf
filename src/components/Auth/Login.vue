@@ -79,7 +79,7 @@ p{
 
 h1 {
   margin-top: 20px;
-  color: #d9a371;
+  color: #024a74;
 }
 .text-aqua p {
   color: var(--aqua) !important;

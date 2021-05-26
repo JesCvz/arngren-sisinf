@@ -59,8 +59,6 @@
       <div class="row">
         <div class="col-md-9">
           <div class="col">
-            <h3>FECHA</h3>
-            <input type="date" />
           </div>
         </div>
         <div class="col-md-3">
@@ -116,7 +114,7 @@
         <div class="row">
           <div class="col-12 col-md-4 col-lg-4">
             <router-link to="/"
-            ><button type="button" class="b2">CANCELAR</button></router-link
+            ><button type="button" class="b2" style="background: var(--danger);">CANCELAR</button></router-link
             >
           </div>
           <div class="col-12 col-md-4 col-lg-4">
@@ -205,10 +203,10 @@ export default {
 </script>
 <style scoped>
 h1 {
-  color: #d9a371;
+  color: #024a74;
 }
 hr {
-  color: #d9a371;
+  color: #024a74;
 }
 input {
   text-align: center;
@@ -217,7 +215,7 @@ input {
   background-color: rgba(239, 232, 232, 0.39);
 }
 .col1t {
-  color: #d9a371;
+  color: #024a74;
 }
 li {
   text-align: left;
@@ -228,22 +226,24 @@ li {
   left: 808.744140625px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #d9a371;
+  background: #ee3800;
 }
 .b2 {
+  color: black;
   height: 44px;
   width: 200px;
   left: 808.744140625px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #d9a371;
+  background: #04a3ff;
 }
 .b3 {
+  color: black;
   height: 44px;
   width: 134.37208557128906px;
   left: 1286.744140625px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #79d3ca;
+  background: #28cf60;
 }
 </style>

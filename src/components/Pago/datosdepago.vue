@@ -159,10 +159,10 @@ p{
   height: 250px;
 }
 label{
-  color: #d9a371;
+  color: #024a74;
 }
 h2{
-  color: #d9a371;
+  color: #024a74;
 }
 
 .b2 {
@@ -171,7 +171,7 @@ h2{
   left: 808.744140625px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #d9a371;
+  background: var(--danger);
   margin-bottom: 50px;
 }
 
@@ -181,7 +181,7 @@ h2{
   left: 808px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #79d3ca;
+  background: #28cf60;
   margin-bottom: 50px;
 }
 
@@ -192,7 +192,7 @@ h2{
     left: 400px;
     top: 1197px;
     border-radius: 30.5px;
-    background: #d9a371;
+    background: var(--danger);
     margin-bottom: 50px;
   }
 
@@ -202,7 +202,7 @@ h2{
     left: 400px;
     top: 1197px;
     border-radius: 30.5px;
-    background: #79d3ca;
+    background: #28cf60;
     margin-bottom: 40px;
   }
 }

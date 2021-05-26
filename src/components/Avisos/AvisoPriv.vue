@@ -66,7 +66,7 @@ export default {
   height: 250px;
 }
 h2{
-  color: #d9a371;
+  color: #024a74;
 }
 li{
   text-align: justify;
@@ -79,7 +79,7 @@ li{
   left: 808.744140625px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #d9a371;
+  background: #024a74;
   margin-bottom: 50px;
 }
 
@@ -89,7 +89,7 @@ li{
   left: 808px;
   top: 1197px;
   border-radius: 30.5px;
-  background: #79d3ca;
+  background: #024a74;
   margin-bottom: 50px;
 }
 
@@ -100,7 +100,7 @@ li{
     left: 400px;
     top: 1197px;
     border-radius: 30.5px;
-    background: #d9a371;
+    background: #024a74;
     margin-bottom: 50px;
   }
 
@@ -110,7 +110,7 @@ li{
     left: 400px;
     top: 1197px;
     border-radius: 30.5px;
-    background: #79d3ca;
+    background: #024a74;
     margin-bottom: 40px;
   }
 }

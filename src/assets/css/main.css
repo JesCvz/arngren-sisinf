@@ -180,7 +180,7 @@ h4{
     transition: box-shadow .3s, left .3s, top .3s;
 }
 .producto-pastel:hover {
-    box-shadow:10px 10px 0 0 #D9A371;
+    box-shadow:10px 10px 0 0 #024a74;
     cursor: pointer;
     top: 0;
     left: 0;
