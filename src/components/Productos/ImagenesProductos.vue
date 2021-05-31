@@ -8,9 +8,6 @@
             <p class="text-left text-muted ">
               precio: {{ product.price }}
             </p>
-            <p class="text-left text-muted ">
-              personas: 12
-            </p>
                 <label for="quantity">Quantity</label>
                 <input :placeholder="product.quantity" v-model="cantidad" >
                 <div>
