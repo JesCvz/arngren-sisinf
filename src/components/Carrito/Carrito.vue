@@ -26,28 +26,28 @@
 
           </div>
         </div>
-        <div class="row mt-2" v-for="product in carritoArray" :key="product.id">
+        <div class="row mt-2" v-for="pastel in carritoArray" :key="pastel.id">
           <div class="col">
             <div>
-              <p  class="d-inline">{{ product.name }}</p>
+              <p  class="d-inline">{{ pastel.name }}</p>
               <hr class="my-4">
             </div>
           </div>
           <div class="col">
             <div>
-              <p>{{ product.quantity }}</p>
+              <p>{{ pastel.quantity }}</p>
               <hr class="my-4">
             </div>
           </div>
           <div class="col">
             <div >
-              <p>${{ product.price.replace("$","") * product.quantity }}</p>
+              <p>${{ pastel.price.replace("$","") * pastel.quantity }}</p>
               <hr class="my-4">
             </div>
           </div>
           <div class="col">
             <router-link to="/auth">
-              <button  class="d-inline btn_ btn-delete ml-2" @click="deleteProducto(product)" @mouseup="getProductos">x</button>
+              <button  class="d-inline btn_ btn-delete ml-2" @click="deleteCake(pastel)" @mouseup="getCake">x</button>
             </router-link>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default {
 
 
   computed: {
-    ...mapState(["user", "carrito", "shoppingCart", "product"]),
+    ...mapState(["user", "carrito", "shoppingCart", "pastel"]),
     ...mapGetters(["carritoArray"]),
 
     totalItem() {
@@ -178,22 +178,22 @@ export default {
       "logout",
       "getCarrito",
       "finder",
-      "getProducts",
-      "getProduct",
-      "deleteProduct"
+      "getPasteles",
+      "getPastel",
+      "deletePastel"
     ]),
-    deleteProducto(product) {
-      this.carritoArray.splice(this.carritoArray.indexOf(product), 1);
-      this.deleteProduct(product.id)
+    deleteCake(pastel) {
+      this.carritoArray.splice(this.carritoArray.indexOf(pastel), 1);
+      this.deletePastel(pastel.id)
       //remove one element starting from the element 'fruit'
     },
 
-    getProductos() {
-      setTimeout(this.getProducts, 200);
+    getCake() {
+      setTimeout(this.getPasteles, 200);
     }
   },
   created() {
-    this.getProducts();
+    this.getPasteles();
     this.windowWidth = window.innerWidth;
     window.addEventListener("resize", () => {
       this.windowWidth = window.innerWidth;

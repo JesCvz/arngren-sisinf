@@ -26,7 +26,7 @@ export default {
 <style scoped>
 .header{
   padding: 50px;
-  background-image: url('../assets/img/bg-5.png');
+  background-image: url('../assets/img/bg-pastel.png');
   background-size: 2000px 800px;
   background-repeat: no-repeat;
 }

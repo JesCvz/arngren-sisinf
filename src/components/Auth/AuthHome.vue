@@ -31,15 +31,15 @@ export default {
   },
 
   computed:{
-        ...mapState(['user','carrito','shoppingCart', 'product']),
+        ...mapState(['user','carrito','shoppingCart', 'pastel']),
         ...mapGetters(['carritoArray'])
     },
      methods: {
-        ...mapActions(['logout','getCarrito','finder','getProducts', 'getProduct'])
+        ...mapActions(['logout','getCarrito','finder','getPasteles', 'getPastel'])
 
     },
     created() {
-      this.getProducts()
+      this.getPasteles()
     }
     }
 </script>

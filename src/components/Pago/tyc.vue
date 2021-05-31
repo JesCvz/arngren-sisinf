@@ -11,13 +11,13 @@
         <ul>
           <li>Este sistema es solo de venta NO de reserva de producto.</li>
           <li>Para utilizar este sistema de compra, solo es válido como forma de pago una tarjeta de Crédito.</li>
-          <li>El monto mínimo de compra para realizar la transacción vía internet es de $200, las compras incluyen solo producto de línea, ya sea repostería o producto habilitados en esta página.</li>
+          <li>El monto mínimo de compra para realizar la transacción vía internet es de $200, las compras incluyen solo producto de línea, ya sea repostería o pastel habilitados en esta página.</li>
           <li>La compra no incluye la entrega a domicilio, es responsabilidad del cliente recoger el producto en la sucursal elegida dentro del proceso de compra, la cual aparecerá impresa en el comprobante.</li>
           <li>La compra solo se entregará en la fecha estipulada en el pedido, y solo tendrá vigencia por 24 horas a partir de la hora de completar la compra en el sistema.</li>
           <li>El cliente deberá de revisar todos los datos de compra antes de finalizar el pedido ya que no habrá cambios de producto, reembolsos ni cancelación de transacciones.</li>
           <li>El horario de compra en la página de internet aplica las 24 horas, sin embargo, deberá de tomar en cuenta que las entregas solo serán dentro de las 24 horas de haber realizado la compra y de acuerdo a los horarios de venta de las sucursales. Las compras que se realicen de las 7 p.m. en adelante, podrán entregarse hasta el siguiente día como límite a la 1 p.m. El resto de las compras deberán de recogerse el mismo día.</li>
           <li>El horario de entrega es de 9 a.m. a 7 p.m. de lunes a domingo. En días festivos es de 10 a.m. a 6 p.m.</li>
-          <li>Es responsabilidad del cliente cumplir con este horario de entrega, de lo contrario Arngren no se hace responsable por almacenar el producto por más de 24 horas, y no se reembolsará el producto ni dinero, esto sin excepción alguna.</li>
+          <li>Es responsabilidad del cliente cumplir con este horario de entrega, de lo contrario Pastelería Yummy no se hace responsable por almacenar el producto por más de 24 horas, y no se reembolsará el producto ni dinero, esto sin excepción alguna.</li>
           <li>El cliente deberá imprimir el comprobante de la compra o mostrarlo desde el celular al momento de recoger el producto, así mismo una identificación oficial con fotografía.</li>
           <li>Al momento de recoger el pedido de compra en la tienda, es indispensable que el cliente firme el ticket como comprobante de la entrega.</li>
           <li>Para cualquier reclamación de producto deberá de conservar su comprobante de compra emitido y enviado a su correo electrónico.</li>
@@ -74,7 +74,7 @@ name: "tyc",
 
 <style scoped>
 .background{
-  background-image: url("../../assets/img/bg-5.png");
+  background-image: url("../../assets/img/bg-pastel.png");
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   max-width: 100%;
