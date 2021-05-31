@@ -1,6 +1,6 @@
 <template>
       <div class="col-12 col-md-4 col-lg-4 mobile-margin-top border pt-3" >
-          <div class="producto-pastel mt-4" >
+          <div class="producto-product mt-4" >
             <div class="text-center">
                 <img :src="require(`@/assets/img/PC/${product.img}`)"  alt="" class="img__services mx-auto">
                 <h3 class="align-middle m-4">{{ product.name }}</h3>
@@ -45,20 +45,17 @@ export default {
     };
   },
   methods: {
-    ...mapActions(['addPastel']),
-      addCantidad(pastel) {
-      this.pastel = pastel,
-      this.pastel.quantity = this.cantidad,
-      this.addPastel(pastel)
+    ...mapActions(['addProduct']),
+      addCantidad(product) {
+      this.product = product,
+      this.product.quantity = this.cantidad,
+      this.addProduct(product)
         alert("Se agrego el producto al carrito");
     }
   },
   computed: {
     ...mapState(['hardwares','pcs','laptops','loading']),
 
-  },
-  created() {
-    console.log(this.pasteles)
   },
 };
 </script>
@@ -80,16 +77,7 @@ button {
 h4 {
   color: black;
 }
-.pastel {
-  max-width: 320px;
-  height: 220px;
-  background-color: #03c2fc;
-  margin: 2rem;
-}
-.pastel img {
-  max-width: 300px;
-  max-height: 200px;
-}
+
 .desc {
   background-color: #03c2fc;
 }

@@ -4,12 +4,12 @@
     <div class="row">
         <div class="col-md-6 text-center">
             <div style="height: 250px" :class="{ 'mt-4' : !isMobile}">
-                <img class="pastel" src="../../assets/img/PC/i9cpu.png" alt="">
+                <img class="product" src="../../assets/img/PC/i9cpu.png" alt="">
             </div>
         </div>
         <div class="col-md-6 text-center align-self-center" v-if="!isMobile">
             <div style="height: 400px" class="mt-4">
-               <img class="pastel" src="../../assets/img/PC/rtx3090.png" alt="">
+               <img class="product" src="../../assets/img/PC/rtx3090.png" alt="">
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
  * you may need to set percentage values as follows (also
  * don't forget to provide a size for the container).
  */
-.pastel {
+.product {
   max-width: 100%;
   height: 350px;
 }

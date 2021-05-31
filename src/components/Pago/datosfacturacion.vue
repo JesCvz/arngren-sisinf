@@ -76,7 +76,7 @@ name: "datos",
 
 <style scoped>
 .background{
-  background-image: url("../../assets/img/bg-pastel.png");
+  background-image: url("../../assets/img/bg-5.png");
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   max-width: 100%;

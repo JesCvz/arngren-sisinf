@@ -312,7 +312,7 @@ export default new Vuex.Store({
     loadFirebase(state, payload) {
       state.loading = payload;
     },
-    setPastel(state, payload) {
+    setProduct(state, payload) {
       state.pastel = payload;
     },
     setSubmitted(state, payload){
@@ -345,7 +345,7 @@ export default new Vuex.Store({
       console.log(payload);
       state.text = payload.toLowerCase();
     },
-    addPastel({commit, state},pastel) {
+    addProduct({commit, state},pastel) {
       commit('loadFirebase', true);
       state.pastel = pastel
       console.log(state.pastel)
@@ -357,14 +357,14 @@ export default new Vuex.Store({
         console.log("added" + doc.id)
       })
     },
-    deletePastel({state}, id) {
+    deleteProduct({state}, id) {
       db.collection(state.user.email).doc("pasteles").collection("carrito").doc(id).delete()
       .then(() => {
         console.log('deleted job')
         this.dispatch('getJobs')
       })
     },
-    getPasteles({commit,state}) {
+    getProducts({commit,state}) {
       commit('loadFirebase', true);
       const jobs = []
       console.log(state.user.email + 'email')
@@ -398,7 +398,7 @@ export default new Vuex.Store({
           commit("setCarrito", pasteles);
         });
     },
-    getPastel({ commit, state }, pastelId) {
+    getProduct({ commit, state }, pastelId) {
       db.collection(state.user.email).doc("pasteles").collection("carrito")
         .doc(pastelId)
         .get()
@@ -407,7 +407,7 @@ export default new Vuex.Store({
           console.log(doc.data());
           let pastel = doc.data();
           pastel.id = doc.id;
-          commit("setPastel", pastel);
+          commit("setProduct", pastel);
         });
     },
     createUser({ commit }, user) {

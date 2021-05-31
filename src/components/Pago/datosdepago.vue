@@ -96,7 +96,7 @@ export default {
     }
   },
   computed: {
-    ...mapState(["user", "carrito", "shoppingCart", "pastel"]),
+    ...mapState(["user", "carrito", "shoppingCart", "product"]),
     ...mapGetters(["carritoArray"]),
 
     totalItem() {
@@ -116,9 +116,9 @@ export default {
       "logout",
       "getCarrito",
       "finder",
-      "getPasteles",
-      "getPastel",
-      "deletePastel",
+      "getProducts",
+      "getProduct",
+      "deleteProduct",
       "addOrder"
     ]),
 
@@ -137,7 +137,7 @@ export default {
     },
 
     created() {
-      this.getPasteles();
+      this.getProducts();
       this.windowWidth = window.innerWidth;
       window.addEventListener("resize", () => {
         this.windowWidth = window.innerWidth;
@@ -152,7 +152,7 @@ p{
   color: black;
 }
 .background{
-  background-image: url("../../assets/img/bg-pastel.png");
+  background-image: url("../../assets/img/bg-5.png");
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   max-width: 100%;

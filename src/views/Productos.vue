@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .home {
-  background-image: url("../assets/img/bg-pasteles.png");
+  background-image: url("../assets/img/bg-5.png");
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   max-width: 100%;

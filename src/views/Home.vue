@@ -2,7 +2,7 @@
   <div class="home">
     <app-header></app-header>
     <app-novedades></app-novedades>
-    <div class="bg-pasteles">
+    <div class="bg-5">
         <app-carousel></app-carousel> 
     </div>
     <app-vendido></app-vendido>
@@ -38,7 +38,7 @@ export default {
     max-width: 100%;
     height: 600px;
   }
-  .bg-pasteles {
+  .bg-5 {
     background-image: url('../assets/img/bg-rodillo.png');
     background-repeat: no-repeat;
   }
